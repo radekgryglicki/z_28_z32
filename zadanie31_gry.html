@@ -1,0 +1,24 @@
+<html>
+ <head>
+ <script type="text/javascript">
+var telefon = 
+{
+    nazwisko: 'Gryglicki',
+    imie: 'Radek',
+    zawod: 'programista',
+    telefon_gryglicki: function ()
+    {
+    document.write(this.nazwisko + ' ' + this.imie + ' ' + this.zawod+'<br>')
+    }
+}
+
+telefon.telefon_gryglicki();
+telefon.wiek=16;
+telefon.wypisz=function() {alert('Wiek: ' + this.wiek + 'lat')}
+telefon.wypisz();
+
+ </script>
+ </head>
+<body>
+</body>
+</html>
